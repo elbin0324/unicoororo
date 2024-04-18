@@ -25,18 +25,16 @@ const Header = () => (
 
 const Banner = () => (
     <section id="banner">
-      <div class="container">
-        <img src={cornBanner} alt="$CORN Banner" className="image small"/>
-				<img src={intro} alt="intro" className="image small"/>
-				<img src={banner2} alt="" className="image small"/>
-      </div>
+      <img src={cornBanner} alt="$CORN Banner" className="image small"/>
+      <img src={intro} alt="intro" className="image small"/>
+      <img src={banner2} alt="" className="image small"/>
       <div class="container small">
-					<ul class="actions special">
-						<li><a href="https://t.me/jewwestbase" target="_blank" class="button large">Telegram</a></li>
-						<li><a href="https://x.com/basedjewwest" target="_blank" class="button large">Twitter (X)</a></li>
-						<li><a href="https://dexscreener.com/base/0x3d07464b23b8c0fe767b164c32995a04569a74db" target="_blank" class="button large">DexScreener</a></li>
-					</ul>
-				</div>
+				<ul class="actions special">
+					<li><a href="https://t.me/jewwestbase" target="_blank" class="button large">Telegram</a></li>
+					<li><a href="https://x.com/basedjewwest" target="_blank" class="button large">Twitter (X)</a></li>
+					<li><a href="https://dexscreener.com/base/0x3d07464b23b8c0fe767b164c32995a04569a74db" target="_blank" class="button large">DexScreener</a></li>
+				</ul>
+			</div>
 		</section>
 )
 

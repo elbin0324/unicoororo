@@ -63,10 +63,10 @@
 				font-size: 16px; /* Adjust font size as needed */
 		}
 		h2 {
-			font-size: 1.5em
+			font-size: 1em
 		}
 		h3 {
-			font-size: 1.2em
+			font-size: 0.75em
 		}
 		p {
 			font-size: 14px; /* Adjust paragraph text size */
@@ -3340,6 +3340,9 @@
 /* Banner */
 
 	#banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 		background-attachment: scroll,							fixed;
 		background-color: #ffffff;
 		background-position: top left,						center center;
