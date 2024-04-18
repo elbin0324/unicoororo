@@ -7,6 +7,7 @@ import outerSpaceCorn from './images/outerSpaceCorn.jpeg';
 import rainbowUnicorn from './images/rainbowUnicorn.jpeg';
 import tanningUnicorn from './images/tanningUnicorn.jpeg';
 
+import {Helmet} from 'react-helmet'
 import './App.css';
 
 const Header = () => (
@@ -40,63 +41,62 @@ const Banner = () => (
 
 const Main = () => (
   <section id="main" class="container large">
-					<div id="disclaimer" class="box">
-						<span class="image featured"><img src={disclaimer} alt="" /></span>
-                    </div>
-					
-					<section class="container large">
-						<div class="text-content">
-							<h3>We are more than just a meme, $CORN is a statement about who we are and what we value</h3>
-						</div>
-						<div class="container video">
-							<video autoplay loop controls class="video">
-								<source src={video} type="video/mp4"/>
-								Your browser does not support the video tag
-							</video>
-						</div>
-					</section>
+    <div class="container video">
+			<video autoplay loop controls class="video">
+			  <source src={video} type="video/mp4"/>
+					Your browser does not support the video tag
+			</video>
+		</div>
+		<div id="disclaimer" class="box">
+			<span class="image featured"><img src={disclaimer} alt="" /></span>
+    </div>
+		<section class="container large">
+		  <div class="text-content">
+				<h3>We are more than just a meme, $CORN is a statement about who we are and what we value</h3>
+			</div>
+		</section>
 
-					<section class="container large">
-						<div class="image-and-text">
-							<img src={outerSpaceCorn} alt="" class="image left small"/>
-							 <div class="text-content">
-								<h2>SOL LAUNCH</h2>
-								<ul>
-									<li><h3>Contract Renounced and Verified ✅</h3></li>
-									<li><h3>Locked Liquidity 🔒</h3></li>
-									<li><h3>Fair Community Launch 🤝</h3></li>
-								</ul>
-							 </div>
-						</div>
-					</section>
+		<section class="container large">
+			<div class="image-and-text">
+				<img src={outerSpaceCorn} alt="" class="image left small"/>
+				<div class="text-content">
+					<h2>SOL LAUNCH</h2>
+					<ul>
+						<li><h3>Contract Renounced and Verified ✅</h3></li>
+						<li><h3>Locked Liquidity 🔒</h3></li>
+						<li><h3>Fair Community Launch 🤝</h3></li>
+					</ul>
+				</div>
+			</div>
+		</section>
 
-					<section class="container large">
-						<div class="image-and-text">
-							 <div class="text-content">
-								<h2>SOL ROADMAP</h2>
-								<ul>
-									<li><h3>Growing Giga Chad Culture on Sol 📈</h3></li>
-									<li><h3>Taking the #1 Spot on Sol 🥇</h3></li>
-								</ul>
-							 </div>
-							 <img src={rainbowUnicorn} alt="" class="image left small"/>
-						</div>
-					</section>
+		<section class="container large">
+			<div class="image-and-text">
+				<div class="text-content">
+				  <h2>SOL ROADMAP</h2>
+					<ul>
+						<li><h3>Growing Giga Chad Culture on Sol 📈</h3></li>
+						<li><h3>Taking the #1 Spot on Sol 🥇</h3></li>
+					</ul>
+				</div>
+				<img src={rainbowUnicorn} alt="" class="image right small"/>
+			</div>
+		</section>
 
-					<section class="container large">
-						<div class="image-and-text">
-							<img src={tanningUnicorn} alt="" class="image left small"/>
-							 <div class="text-content">
-								<h2>SOL TOKENOMICS</h2>
-								<ul>
-									<li><h3>Zero Taxes 🚫</h3></li>
-									<li><h3>Giga Chad Holders 💪</h3></li>
-									<li><h3>Community LP Culture 💬</h3></li>
-								</ul>
-							 </div>
-						</div>
-					</section>
-				</section>
+		<section class="container large">
+			<div class="image-and-text">
+				<img src={tanningUnicorn} alt="" class="image left small"/>
+					<div class="text-content">
+					<h2>SOL TOKENOMICS</h2>
+					<ul>
+						<li><h3>Zero Taxes 🚫</h3></li>
+						<li><h3>Giga Chad Holders 💪</h3></li>
+						<li><h3>Community LP Culture 💬</h3></li>
+					</ul>
+					</div>
+			</div>
+		</section>
+	</section>
 )
 
 const Footer = () => (
@@ -114,6 +114,11 @@ const Footer = () => (
 
 const App = () => (
   <div id="page-wrapper">
+    <Helmet>
+      <title>$CORN on Sol</title>
+		  <meta charset="utf-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    </Helmet>
     <Header/>
     <Banner/>
     <Main/>
