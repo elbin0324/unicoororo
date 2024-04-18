@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/corn_website/static/css/main.513984ff.css",
+    "main.js": "/corn_website/static/js/main.4b2f56c9.js",
+    "static/js/453.c73d2f96.chunk.js": "/corn_website/static/js/453.c73d2f96.chunk.js",
+    "static/media/video_new.mp4": "/corn_website/static/media/video_new.84895b3953f94efb60e5.mp4",
+    "static/media/banner2.png": "/corn_website/static/media/banner2.c72391dbe718cee6ea5e.png",
+    "static/media/disclaimer.png": "/corn_website/static/media/disclaimer.d944aecf9170f1dabb37.png",
+    "static/media/outerSpaceCorn.jpeg": "/corn_website/static/media/outerSpaceCorn.c6ccfbc3b308b1c257d5.jpeg",
+    "static/media/tanningUnicorn.jpeg": "/corn_website/static/media/tanningUnicorn.f5712bb240bb660dcd7c.jpeg",
+    "static/media/briefintro.png": "/corn_website/static/media/briefintro.79bd3af87018c597723d.png",
+    "static/media/rainbowUnicorn.jpeg": "/corn_website/static/media/rainbowUnicorn.6826e598156dd1d27c85.jpeg",
+    "static/media/cornBanner.jpeg": "/corn_website/static/media/cornBanner.03cb5096c4746b3c418d.jpeg",
+    "index.html": "/corn_website/index.html",
+    "main.513984ff.css.map": "/corn_website/static/css/main.513984ff.css.map",
+    "main.4b2f56c9.js.map": "/corn_website/static/js/main.4b2f56c9.js.map",
+    "453.c73d2f96.chunk.js.map": "/corn_website/static/js/453.c73d2f96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.513984ff.css",
+    "static/js/main.4b2f56c9.js"
+  ]
+}
